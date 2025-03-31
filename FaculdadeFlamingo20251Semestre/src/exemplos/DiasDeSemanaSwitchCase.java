@@ -45,6 +45,8 @@ public class DiasDeSemanaSwitchCase {
 			System.out.println("Opção Invalida");
 			break;
 		}
+		
+		sc.close();
 	}
 
 }

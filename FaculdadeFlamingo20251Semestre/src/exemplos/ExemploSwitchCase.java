@@ -33,6 +33,8 @@ public class ExemploSwitchCase {
 			System.out.println("Escolha inválida");
 			break;
 		}
+		
+		sc.close();
 	}
 
 }

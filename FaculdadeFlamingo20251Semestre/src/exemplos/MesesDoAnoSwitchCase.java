@@ -65,6 +65,9 @@ public class MesesDoAnoSwitchCase {
 			System.out.println("Opção Invalida");
 			break;
 		}
+		
+		sc.close();
+		
 	}
 
 }

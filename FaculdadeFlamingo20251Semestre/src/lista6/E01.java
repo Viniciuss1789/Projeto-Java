@@ -1,8 +1,8 @@
-package exemplos;
+package lista6;
 
 import java.util.Scanner;
 
-public class DiasDeSemana {
+public class E01 {
 
 	public static void main(String[] args) {
 		
