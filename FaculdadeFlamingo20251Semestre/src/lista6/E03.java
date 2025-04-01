@@ -36,7 +36,7 @@ public class E03 {
 		default:
 			System.out.println("Operação invalida");
 			break;
-			
+
 		}
 		sc.close();
 	}

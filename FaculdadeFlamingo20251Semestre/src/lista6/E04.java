@@ -3,11 +3,11 @@ package lista6;
 import java.util.Scanner;
 
 public class E04 {
-	
+
 	public static void main(String[] args) {
-		
+
 		Scanner sc = new Scanner(System.in);
-		
+
 		System.out.println("Estações do Ano");
 		System.out.println("1 - Verão");
 		System.out.println("2 - Outono");
@@ -15,7 +15,7 @@ public class E04 {
 		System.out.println("4 - Primavera");
 		System.out.println("Selecione uma opção válida");
 		int opcao = sc.nextInt();
-		
+
 		switch (opcao) {
 		case 1:
 			System.out.println("A estação do ano é Verão");
