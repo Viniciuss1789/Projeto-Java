@@ -10,13 +10,13 @@ public class E01 {
 		
 		System.out.println("O valor inteiro?");
 		
-		int imparoupar = sc.nextInt();
+		int imparOuPar = sc.nextInt();
 
 		
-		if (imparoupar % 2 == 0) {
-			System.out.println("O número é " + imparoupar + " Par");
+		if (imparOuPar % 2 == 0) {
+			System.out.println("O número é " + imparOuPar + " Par");
 		}else {
-			System.out.println("O número é " + imparoupar + " Impar");
+			System.out.println("O número é " + imparOuPar + " Impar");
 		}
 		
 		sc.close();
