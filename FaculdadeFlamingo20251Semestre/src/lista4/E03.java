@@ -12,7 +12,7 @@ public class E03 {
 		
 		int nota = sc.nextInt();
 		
-		if (nota >=60) {
+		if (nota >=60 ) {
 			System.out.println("Parabens você foi aprovado");
 		}else {
 			System.out.println("Infelizmente você não foi aprovado");
