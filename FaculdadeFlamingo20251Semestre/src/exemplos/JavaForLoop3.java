@@ -9,10 +9,10 @@ public class JavaForLoop3 {
 		Scanner sc = new Scanner(System.in);
 
 		for (int contadora = 1; contadora <= 2; contadora++) {
-			System.out.println("Lider: " + contadora + "°");
+			System.out.println("Equipe: " + contadora + "°");
 
 			for (int contador = 1; contador <= 5; contador++) {
-				System.out.println(" Time: " + contador);
+				System.out.println(" Menbro: " + contador);
 			}
 		}
 
