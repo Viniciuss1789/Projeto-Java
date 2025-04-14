@@ -15,22 +15,22 @@ public class E03 {
 		int numero2 = sc.nextInt();
 		System.out.println("Digite a operação que deseja efetuar : ");
 		char operacao = sc.next().charAt(0);
-		float resultado;
+		float valor;
 		switch (operacao) {
 		case '+':
-			resultado = numero1 + numero2;
+			valor = numero1 + numero2;
 			System.out.println("O resultado da soma é : ");
 			break;
 		case '-':
-			resultado = numero1 + numero2;
+			valor = numero1 + numero2;
 			System.out.println("O resultado da subtração é : ");
 			break;
 		case '*':
-			resultado = numero1 + numero2;
+			valor = numero1 + numero2;
 			System.out.println("O resultado da multiplicação é : ");
 			break;
 		case '/':
-			resultado = numero1 + numero2;
+			valor = numero1 + numero2;
 			System.out.println("O resultado da divisão é : ");
 			break;
 		default:

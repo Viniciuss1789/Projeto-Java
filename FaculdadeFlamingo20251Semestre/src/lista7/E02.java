@@ -10,5 +10,7 @@ public class E02 {
 		
 		System.out.println();
 		
+		sc.close();
+		
 	}
 }
