@@ -2,7 +2,7 @@ package lista1;
 
 import java.util.Scanner;
 
-public class CalculoPerimetroCirculo10 {
+public class E010 {
 	
 	public static void main(String[] args) {
 		

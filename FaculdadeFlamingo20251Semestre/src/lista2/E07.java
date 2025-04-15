@@ -2,7 +2,7 @@ package lista2;
 
 import java.util.Scanner;
 
-public class EquacaoQuadratica7 {
+public class E07 {
 	
 	public static void main(String[] args) {
 		

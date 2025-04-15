@@ -2,7 +2,7 @@ package lista2;
 
 import java.util.Scanner;
 
-public class ConversorMoedas3 {
+public class E03 {
 	
 	public static void main(String[] args) {
 		

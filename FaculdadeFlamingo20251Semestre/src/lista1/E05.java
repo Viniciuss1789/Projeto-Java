@@ -2,7 +2,7 @@ package lista1;
 
 import java.util.Scanner;
 
-public class RestoDivisao05 {
+public class E05 {
 public static void main(String [] args) {
 		
 	Scanner sc = new Scanner(System.in);

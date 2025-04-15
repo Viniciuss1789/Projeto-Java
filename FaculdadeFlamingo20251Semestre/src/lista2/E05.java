@@ -2,7 +2,7 @@ package lista2;
 
 import java.util.Scanner;
 
-public class MediaHarmonica5 {
+public class E05 {
 	
 	public static void main(String[] args) {
 		

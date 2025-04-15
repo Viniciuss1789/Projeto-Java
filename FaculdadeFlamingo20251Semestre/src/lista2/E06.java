@@ -2,7 +2,7 @@ package lista2;
 
 import java.util.Scanner;
 
-public class MediaGeometrica6 {
+public class E06 {
 	
 	public static void main(String[] args) {
 		

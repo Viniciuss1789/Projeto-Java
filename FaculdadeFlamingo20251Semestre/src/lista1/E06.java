@@ -2,7 +2,7 @@ package lista1;
 
 import java.util.Scanner;
 
-public class Quandradro06 {
+public class E06 {
 	
 	public static void main(String[] args) {
 		
