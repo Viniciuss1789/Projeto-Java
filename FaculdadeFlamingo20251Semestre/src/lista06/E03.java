@@ -5,40 +5,44 @@ import java.util.Scanner;
 public class E03 {
 
 	public static void main(String[] args) {
-
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Sistema de Calciladora : ");
-		System.out.println("Digite o primeiro valor : ");
-		int numero1 = sc.nextInt();
-		System.out.println("Digite o segundo valor : ");
-		int numero2 = sc.nextInt();
-		System.out.println("Digite a operação que deseja efetuar : ");
+		System.out.print("Digite o primeiro número: ");
+		double numero1 = sc.nextDouble();
+
+		System.out.print("Digite o segundo número: ");
+		double numero2 = sc.nextDouble();
+
+		System.out.print("Digite a operação (+, -, *, /): ");
 		char operacao = sc.next().charAt(0);
-		float valor;
+
+		double resultado;
+
 		switch (operacao) {
 		case '+':
-			valor = numero1 + numero2;
-			System.out.println("O resultado da soma é : ");
+			resultado = numero1 + numero2;
+			System.out.println("Resultado: " + resultado);
 			break;
 		case '-':
-			valor = numero1 + numero2;
-			System.out.println("O resultado da subtração é : ");
+			resultado = numero1 - numero2;
+			System.out.println("Resultado: " + resultado);
 			break;
 		case '*':
-			valor = numero1 + numero2;
-			System.out.println("O resultado da multiplicação é : ");
+			resultado = numero1 * numero2;
+			System.out.println("Resultado: " + resultado);
 			break;
 		case '/':
-			valor = numero1 + numero2;
-			System.out.println("O resultado da divisão é : ");
+			if (numero2 != 0) {
+				resultado = numero1 / numero2;
+				System.out.println("Resultado: " + resultado);
+			} else {
+				System.out.println("Erro: Divisão por zero não é permitida.");
+			}
 			break;
 		default:
-			System.out.println("Operação invalida");
-			break;
-
+			System.out.println("Operação inválida.");
 		}
+
 		sc.close();
 	}
-
 }
