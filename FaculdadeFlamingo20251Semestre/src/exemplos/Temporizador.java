@@ -4,29 +4,29 @@ import java.util.Scanner;
 
 public class Temporizador {
 
-	public static void main(String[] args) {
-
+	public static void main(String[] args) throws InterruptedException {
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Hora");
+		System.out.print("Hora: ");
 		int hora = sc.nextInt();
-		System.out.println("Minuto");
+		System.out.print("Minuto: ");
 		int minuto = sc.nextInt();
-		System.out.println("Segundo");
+		System.out.print("Segundo: ");
 		int segundo = sc.nextInt();
 
-		for (hora = hora; hora > -1; hora--) {
-			for (minuto = minuto; minuto > -1; minuto--) {
-				for (segundo = segundo; segundo > -1; segundo--) {
+		int totalSegundos = hora * 3600 + minuto * 60 + segundo;
 
-					System.out.println(hora + " : " + minuto + " : " + segundo);
-				}
-				segundo = 59;
-				
-			}
-			minuto = 59;
+		while (totalSegundos >= 0) {
+			int h = totalSegundos / 3600;
+			int m = (totalSegundos % 3600) / 60;
+			int s = totalSegundos % 60;
+
+			System.out.printf("%02d : %02d : %02d\n", h, m, s);
+
+			Thread.sleep(1);
+			totalSegundos--;
 		}
+
 		sc.close();
 	}
-
 }
